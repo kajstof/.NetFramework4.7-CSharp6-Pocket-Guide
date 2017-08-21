@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HelloWorld
+namespace CSharp6PocketReferenceBook
 {
     public class Stack<T> : IPoppable<T>, IPushable<T>
     {

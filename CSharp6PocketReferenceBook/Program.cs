@@ -10,7 +10,7 @@ using System.Net;
 using System.IO;
 using System.Xml;
 
-namespace HelloWorld
+namespace CSharp6PocketReferenceBook
 {
     class Program
     {
@@ -1072,7 +1072,7 @@ namespace HelloWorld
             IEnumerable<int> sequence1 = classicList.Cast<int>();
             var aaa = from int x in classicList select x;
             // Translates to
-            var bbb = from x in classicList.Cast<int>().Select(x => x);
+            var bbb = from x in classicList.Cast<int>() select x;
         }
 
         public static IEnumerable<TSource> Cast<TSource>(IEnumerable source)

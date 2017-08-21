@@ -1,4 +1,4 @@
-﻿namespace HelloWorld
+﻿namespace CSharp6PocketReferenceBook
 {
     class Point
     {

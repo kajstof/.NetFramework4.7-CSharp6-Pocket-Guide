@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HelloWorld
+namespace CSharp6PocketReferenceBook
 {
     class @class
     {
@@ -58,11 +58,11 @@ namespace HelloWorld
         public object Pop() { return data[--position]; }
     }
 
-    interface Element
+    interface IElement
     {
     }
 
-    class ElementA : Element
+    class ElementA : IElement
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -74,7 +74,7 @@ namespace HelloWorld
         }
     }
 
-    class ElementB : Element
+    class ElementB : IElement
     {
         public int X { get; set; }
         public int Y { get; set; }
