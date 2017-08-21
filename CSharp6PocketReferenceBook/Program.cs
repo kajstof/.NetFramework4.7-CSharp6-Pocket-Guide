@@ -14,7 +14,7 @@ namespace CSharp6PocketReferenceBook
 {
     class Program
     {
-        static reaonly int legs = 8, eyes = 2;
+        static readonly int legs = 8, eyes = 2;
 
         decimal currentPrice, sharesOwned;
         public decimal Worth
